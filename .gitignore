@@ -1,4 +1,11 @@
 Pruebas/
+VocesWindows/models/2024ssv002/
+VocesWindows/models/2025acv02/
+VocesLinux/models/2024ssv002/
+VocesLinux/models/2025acv02/
+VocesAndroid/generated_models/*.bin
+VocesAndroid/generated_models/*.onnx
+VocesAndroid/generated_models/*.tsv
 
 # Created by https://www.toptal.com/developers/gitignore/api/python,c++,kotlin
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,c++,kotlin
