@@ -129,9 +129,9 @@ class Interfaz:
         cuerpo = ctk.CTkFrame(tab, fg_color="transparent")
         cuerpo.pack(fill="both", expand=True, padx=8, pady=(10, 4))
 
-        ctk.CTkLabel(cuerpo, text="Generador de Voz", font=self.f_titulo,
+        ctk.CTkLabel(cuerpo, text="Sistema de Comunicación Alternativa", font=self.f_titulo,
                      text_color=TEXTO, anchor="w").pack(fill="x")
-        ctk.CTkLabel(cuerpo, text="Escriba el texto y presiona Generar para escucharlo.",
+        ctk.CTkLabel(cuerpo, text="Escriba el texto y presione Generar para escucharlo.",
                      font=self.f_sub, text_color=TEXTO_SUAVE, anchor="w").pack(fill="x", pady=(2, 16))
 
         self.entrada = ctk.CTkTextbox(cuerpo, height=150, corner_radius=10,

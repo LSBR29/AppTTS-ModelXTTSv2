@@ -45,10 +45,10 @@ NARANJA = "#C96A2E"
 GRIS = "#A8A29A"
 
 FUENTE = "Segoe UI"  # "Helvetica" en Linux/macOS si no existe
-TITULO_APP = "TCU-748 · VOCES"
+TITULO_APP = "TCU-748"
 
 # Valores por defecto y rangos validos de los 4 parametros de muestreo del GPT -- mismos valores
-# que trae infer.py (ver synthesize()) y que usa VocesAndroid (ver MainActivity.kt).
+# que trae infer.py (ver synthesize()).
 PARAM_DEFECTOS = {"temperature": "0.85", "top_k": "50", "top_p": "0.85", "repetition_penalty": "2.0"}
 PARAM_RANGOS = {
     "temperature": (0.05, 3.0),
@@ -69,7 +69,7 @@ class Interfaz:
 
         ctk.set_appearance_mode("light")
         self.root = ctk.CTk(fg_color=FONDO)
-        self.root.title("Generador de Voz")
+        self.root.title("VocesTCU748")
         self.root.geometry("600x640")
         self.root.resizable(False, False)
 
@@ -129,9 +129,9 @@ class Interfaz:
         cuerpo = ctk.CTkFrame(tab, fg_color="transparent")
         cuerpo.pack(fill="both", expand=True, padx=8, pady=(10, 4))
 
-        ctk.CTkLabel(cuerpo, text="Generador de Voz", font=self.f_titulo,
+        ctk.CTkLabel(cuerpo, text="Sistema de Comunicación Alternativa", font=self.f_titulo,
                      text_color=TEXTO, anchor="w").pack(fill="x")
-        ctk.CTkLabel(cuerpo, text="Escribe el texto y presiona Generar para escucharlo.",
+        ctk.CTkLabel(cuerpo, text="Escriba el texto y presione Generar para escucharlo.",
                      font=self.f_sub, text_color=TEXTO_SUAVE, anchor="w").pack(fill="x", pady=(2, 16))
 
         self.entrada = ctk.CTkTextbox(cuerpo, height=150, corner_radius=10,
@@ -325,7 +325,7 @@ class Interfaz:
             try:
                 self._ctx = self._cargar(log=self._log) if self._cargar else None
                 self.root.after(0, lambda: (self._barra(False), self._bloquear(False),
-                                            self._estado("Listo. Escribe un texto para comenzar.")))
+                                            self._estado("Listo. Modelo cargado.")))
             except Exception as e:
                 self.root.after(0, lambda: (self._barra(False),
                                             self._estado(f"Error al cargar: {e}", NARANJA)))
@@ -338,7 +338,7 @@ class Interfaz:
             return
         texto = self.entrada.get("1.0", "end-1c").strip()
         if not texto:
-            self._estado("Escribe algo antes de generar.", NARANJA)
+            self._estado("Escriba algo antes de generar.", NARANJA)
             return
         parametros = self._leer_parametros()
         self._bloquear(True, "Generando...")
