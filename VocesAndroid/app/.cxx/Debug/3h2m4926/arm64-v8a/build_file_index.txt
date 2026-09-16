@@ -1,0 +1,1 @@
+C:\Users\santi\Desktop\UCR\TCU\Procesamiento de Voces\Local\VocesAndroid\app\src\main\cpp\CMakeLists.txt

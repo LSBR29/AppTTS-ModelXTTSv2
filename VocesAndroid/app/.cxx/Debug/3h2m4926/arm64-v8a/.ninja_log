@@ -1,0 +1,11 @@
+# ninja log v5
+22	4139	8112279259965568	CMakeFiles/xtts_native.dir/jni_bridge.cpp.o	a83174c2c6ad3e78
+2	9542	8112279313382526	CMakeFiles/xtts_native.dir/xtts_engine.cpp.o	2efce1044c19400b
+9543	9920	8112279317727491	C:/Users/santi/Desktop/UCR/TCU/Procesamiento de Voces/Local/VocesAndroid/app/build/intermediates/cxx/Debug/3h2m4926/obj/arm64-v8a/libxtts_native.so	b3a102adc8af4e0b
+21	2752	8112293702464161	CMakeFiles/xtts_native.dir/jni_bridge.cpp.o	a83174c2c6ad3e78
+2754	3199	8112293706899472	C:/Users/santi/Desktop/UCR/TCU/Procesamiento de Voces/Local/VocesAndroid/app/build/intermediates/cxx/Debug/3h2m4926/obj/arm64-v8a/libxtts_native.so	b3a102adc8af4e0b
+61	4176	8112324649251301	CMakeFiles/xtts_native.dir/jni_bridge.cpp.o	a83174c2c6ad3e78
+38	8958	8112324696819635	CMakeFiles/xtts_native.dir/xtts_engine.cpp.o	2efce1044c19400b
+8959	9299	8112324700819786	C:/Users/santi/Desktop/UCR/TCU/Procesamiento de Voces/Local/VocesAndroid/app/build/intermediates/cxx/Debug/3h2m4926/obj/arm64-v8a/libxtts_native.so	b3a102adc8af4e0b
+23	4396	8112333504438249	CMakeFiles/xtts_native.dir/jni_bridge.cpp.o	a83174c2c6ad3e78
+4398	4878	8112333509279708	C:/Users/santi/Desktop/UCR/TCU/Procesamiento de Voces/Local/VocesAndroid/app/build/intermediates/cxx/Debug/3h2m4926/obj/arm64-v8a/libxtts_native.so	b3a102adc8af4e0b

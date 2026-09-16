@@ -1,0 +1,12 @@
+[
+{
+  "directory": "C:/Users/santi/Desktop/UCR/TCU/Procesamiento de Voces/Local/VocesAndroid/app/.cxx/Debug/3h2m4926/arm64-v8a",
+  "command": "C:\\Users\\santi\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android26 --sysroot=C:/Users/santi/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dxtts_native_EXPORTS -I\"C:/Users/santi/Desktop/UCR/TCU/Procesamiento de Voces/Local/VocesAndroid/app/src/main/cpp/onnxruntime_headers\" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -fno-limit-debug-info  -fPIC -std=c++17 -o CMakeFiles\\xtts_native.dir\\jni_bridge.cpp.o -c \"C:\\Users\\santi\\Desktop\\UCR\\TCU\\Procesamiento de Voces\\Local\\VocesAndroid\\app\\src\\main\\cpp\\jni_bridge.cpp\"",
+  "file": "C:\\Users\\santi\\Desktop\\UCR\\TCU\\Procesamiento de Voces\\Local\\VocesAndroid\\app\\src\\main\\cpp\\jni_bridge.cpp"
+},
+{
+  "directory": "C:/Users/santi/Desktop/UCR/TCU/Procesamiento de Voces/Local/VocesAndroid/app/.cxx/Debug/3h2m4926/arm64-v8a",
+  "command": "C:\\Users\\santi\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android26 --sysroot=C:/Users/santi/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dxtts_native_EXPORTS -I\"C:/Users/santi/Desktop/UCR/TCU/Procesamiento de Voces/Local/VocesAndroid/app/src/main/cpp/onnxruntime_headers\" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -fno-limit-debug-info  -fPIC -std=c++17 -o CMakeFiles\\xtts_native.dir\\xtts_engine.cpp.o -c \"C:\\Users\\santi\\Desktop\\UCR\\TCU\\Procesamiento de Voces\\Local\\VocesAndroid\\app\\src\\main\\cpp\\xtts_engine.cpp\"",
+  "file": "C:\\Users\\santi\\Desktop\\UCR\\TCU\\Procesamiento de Voces\\Local\\VocesAndroid\\app\\src\\main\\cpp\\xtts_engine.cpp"
+}
+]

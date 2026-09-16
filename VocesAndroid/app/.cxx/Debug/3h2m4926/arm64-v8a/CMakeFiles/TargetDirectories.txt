@@ -1,0 +1,3 @@
+C:/Users/santi/Desktop/UCR/TCU/Procesamiento de Voces/Local/VocesAndroid/app/.cxx/Debug/3h2m4926/arm64-v8a/CMakeFiles/xtts_native.dir
+C:/Users/santi/Desktop/UCR/TCU/Procesamiento de Voces/Local/VocesAndroid/app/.cxx/Debug/3h2m4926/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/santi/Desktop/UCR/TCU/Procesamiento de Voces/Local/VocesAndroid/app/.cxx/Debug/3h2m4926/arm64-v8a/CMakeFiles/rebuild_cache.dir
