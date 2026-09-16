@@ -13,6 +13,10 @@ Este es un proyecto de síntesis de voz (Text-to-Speech) basado en el modelo XTT
 - **`VocesAndroid/`**
   App Android (Kotlin + C++) que ejecuta el modelo XTTS v2 exportado a ONNX directamente en el teléfono. Incluye el proyecto Gradle complón del checkpoint a los archivos que consumela app, y los modelos ya generados para una voz probada.
 
+## Modelos ya entrenados
+
+Puede encontrarlos en la siguiente carpeta: [OneDrive](https://6f33fa7f78ea46e2aaca-my.sharepoint.com/:f:/g/personal/luis_brenesruiz_ucr_ac_cr/IgA_fHN6DcnzTq30IUfhQH8CATcJdq6fODv1tks2GW-3qeI?e=JOUh1M)
+
 # AI Disclaimer
 
 Este proyecto fue desarrollado con asistencia de inteligencia artificial (código, documentación y configuración). Puede contener errores, decisiones no óptimas o partes sin verificar exhaustivamente.

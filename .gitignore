@@ -1,8 +1,18 @@
 Pruebas/
+
+# Modelos Windows
 VocesWindows/models/2024ssv002/
 VocesWindows/models/2025acv02/
+VocesWindows/onnx_models/2024ssv002/
+VocesWindows/onnx_models/2025acv02/
+
+# Modelos Linux
 VocesLinux/models/2024ssv002/
 VocesLinux/models/2025acv02/
+VocesLinux/onnx_models/2024ssv002/
+VocesLinux/onnx_models/2025acv02/
+
+# Modelos Android
 VocesAndroid/generated_models/*.bin
 VocesAndroid/generated_models/*.onnx
 VocesAndroid/generated_models/*.tsv
