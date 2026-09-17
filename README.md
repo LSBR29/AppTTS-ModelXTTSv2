@@ -1,6 +1,6 @@
 # AppTTS-ModelXTTSv2
 
-Este es un proyecto de síntesis de voz (Text-to-Speech) basado en el modelo XTTS v2 (coqui), con diferentes instrucciones y el código fuente para el despliegue de: una aplicación de escritorio (Windows/Linux) y una aplicación móvil (Android) que la inferencia (generación de audio) con el modelo TTS de manera local.
+Este es un proyecto de síntesis de voz (Text-to-Speech) basado en el modelo XTTS v2 (coqui), con diferentes instrucciones y el código fuente para el despliegue de: una aplicación de escritorio (Windows/Linux) y una aplicación móvil (Android) que realiza inferencia (generación de audio) con el modelo TTS de manera local.
 
 ## Estructura
 
